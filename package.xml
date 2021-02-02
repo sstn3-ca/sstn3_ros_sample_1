@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+  <name>sstn3_ros_sample</name>
+  <version>0.10.2</version>
+  <description>
+    This package attempts to show the features of ROS step-by-step,
+    including using messages, servers, parameters, etc.
+  </description>
+  <maintainer email="c.abe@ncontr.com">C A</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wikisstn3_ros_sample</url>
+  <url type="bugtracker">https://github.com/sstn3-ca/sstn3_ros_sample/issues</url>
+  <url type="repository">https://github.com/sstn3-ca/sstn3_ros_sample</url>
+  <author>C A</author>
+  <author email="c.abe@ncontr.com">C A</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>libboost-date-time-dev</build_depend>
+  <build_depend>libboost-thread-dev</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roscpp_serialization</build_depend>
+  <build_depend>rostime</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>libboost-date-time-dev</run_depend>
+  <run_depend>libboost-thread-dev</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rosconsole</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>roscpp_serialization</run_depend>
+  <run_depend>rostime</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
