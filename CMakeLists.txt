@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(sstn3_ros_sample)
+project(sstn3_ros_sample_1)
 
 find_package(Boost REQUIRED COMPONENTS date_time thread)
 find_package(catkin REQUIRED COMPONENTS message_generation rostime roscpp rosconsole roscpp_serialization)
